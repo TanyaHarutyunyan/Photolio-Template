@@ -1,0 +1,40 @@
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(250, 244, 244);
+    margin-top: 60px;
+    position: relative;
+}
+
+.iconsDiv{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconsDiv p{
+    font-size: 25px;
+    padding: 3px;
+    color: rgb(117, 113, 113);;
+}
+
+.iconsDiv p:hover{
+    font-size: 25px;
+    padding: 3px;
+    color: rgb(170, 164, 164);;
+}
+
+.websiteLink{
+    position: absolute;
+    left: 45%;
+    top: 50%
+}
+
+.websiteLink p{
+    color: grey
+}
+
+.websiteLink a{
+    color: grey
+}

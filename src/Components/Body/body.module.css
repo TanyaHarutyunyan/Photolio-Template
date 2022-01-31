@@ -1,0 +1,43 @@
+.columnDiv{
+    display: flex;
+}
+
+.columnDiv div{
+    max-width: 33.3%;
+}
+
+.columnDiv div img{
+    width: 100%;
+}
+
+
+.buttonDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px
+}
+
+.btn{
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(109, 108, 108);
+    border: 2px solid rgb(109, 108, 108);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    color: rgb(109, 108, 108);
+    background-color: white
+}
+
+
+
+

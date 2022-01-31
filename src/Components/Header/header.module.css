@@ -1,0 +1,34 @@
+.header{
+    background-color: white;
+}
+
+.header h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 440;
+    color: rgb(100, 99, 99);
+}
+
+.header p{
+    color: rgb(100, 99, 99);
+    font-weight: 500;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.navDiv{
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+}
+
+.bar{
+    font-size: 35px;
+    padding: 7px;
+}
+
+.bar:hover{
+    color: rgb(168, 165, 165);
+    cursor: pointer;
+}
